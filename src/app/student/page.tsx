@@ -174,7 +174,7 @@ export default function Student() {
                 <Image src='/images/genrateicon.svg' alt='genrate svg' width={60} height={60} />
               </div>
               <div>
-                <p className="text-white tracking-widest font-semibold mt-4 flex justify-center text-center">Genrate your outpass</p>
+                <p className="text-white tracking-widest font-semibold mt-4 flex justify-center text-center">Generate your outpass</p>
               </div>
             </div>
           )}
@@ -231,11 +231,11 @@ export default function Student() {
           <Image src="/images/passicon.svg" alt='passicon' width={25} height={25} />
           <span className="text-xs mt-1">Passes</span>
         </Link>
-        <Link href={'/student'} className="flex flex-col items-center">
+        <Link href={'/calendar'} className="flex flex-col items-center">
           <Image src="/images/calicon.svg" alt='calicon' width={20} height={20} />
           <span className="text-xs mt-1">Calendar</span>
         </Link>
-        <Link href={'/student'} className="flex flex-col items-center">
+        <Link href={'/student/profile'} className="flex flex-col items-center">
           <Image src="/images/profileicon.svg" alt='profileicon' width={20} height={20} />
           <span className="text-xs mt-1">Profile</span>
         </Link>

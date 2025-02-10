@@ -224,11 +224,11 @@ export default function Passrequests() {
                         <Image src="/images/passicon.svg" alt='homeicon' width={25} height={25} />
                         <span className="text-xs mt-1">Passes</span>
                     </Link>
-                    <Link href={'/faculty'} className="flex flex-col items-center">
+                    <Link href={'/calendar'} className="flex flex-col items-center">
                         <Image src="/images/calicon.svg" alt='homeicon' width={20} height={20} />
                         <span className="text-xs mt-1">Calendar</span>
                     </Link>
-                    <Link href={'/faculty'} className="flex flex-col items-center">
+                    <Link href={'/faculty/profile'} className="flex flex-col items-center">
                         <Image src="/images/profileicon.svg" alt='homeicon' width={20} height={20} />
                         <span className="text-xs mt-1">Profile</span>
                     </Link>
