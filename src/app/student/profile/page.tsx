@@ -66,7 +66,7 @@ export default function ProfilePage() {
             <div className="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
                 {student && (
                     <>
-                        <div className="flex items-center space-x-6">
+                        <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
                             <Image
                                 src="/favicon.svg"
                                 alt="Profile Picture"
@@ -74,14 +74,14 @@ export default function ProfilePage() {
                                 width={150}
                                 height={150}
                             />
-                            <div>
+                            <div className="text-center md:text-left">
                                 <h2 className="text-2xl font-bold">{student.name}</h2>
                                 <p className="text-gray-600">{student.email}</p>
                             </div>
                         </div>
                         <div className="mt-6">
                             <h3 className="text-xl font-semibold">Student Information</h3>
-                            <div className="grid grid-cols-2 gap-4 mt-3">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
                                 <p><strong>Father's Name:</strong> {student.fathersName}</p>
                                 <p><strong>Mother's Name:</strong> {student.mothersName}</p>
                                 <p><strong>Course:</strong> {student.course}</p>
